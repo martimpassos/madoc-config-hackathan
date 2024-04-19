@@ -1,0 +1,4 @@
+services:
+  - name: madoc
+    type: docker
+    startCommand: "docker-compose up"
