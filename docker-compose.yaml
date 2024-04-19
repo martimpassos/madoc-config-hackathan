@@ -51,6 +51,7 @@ services:
     volumes:
       - jwt:/home/node/app/service-jwt-responses:Z
       - files:/home/node/app/files:Z
+      - ./translations/pt:/home/node/app/translations/pt:Z
     environment:
       - DATABASE_HOST=shared-postgres
       - DATABASE_NAME=postgres
